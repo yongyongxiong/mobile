@@ -1,0 +1,68 @@
+@charset "utf-8";
+/*css document*/
+body,div,p,ul,ol,li,dl,dt,dd,table,tr,td,th,form,h1,h2,h3,h4,h5,h6,input,textarea,fieldset,figure{
+	margin:0;
+	padding:0;
+}
+html,body{
+	font-size: 26.67vw;
+	height: 100%;
+}
+body{
+	font-family:"微软雅黑",Arial;	
+	display: -webkit-flex;
+	flex-direction: column;
+	background: #f1f1f1;
+	overflow-x: hidden;
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:0;
+	display: block;
+}
+
+.content-st{
+	overflow-y: scroll;
+    flex: 1;
+    overflow-x:hidden;
+}
+
+
+/*footer*/
+.footer{
+	width: 100%;
+	height: .46rem;	
+	background: #fff;
+	overflow: hidden;
+	border-top:1px solid #f9f9f9;
+	z-index: 1000;
+}
+.footer ul{
+	width: 100%;/*
+	display:-webkit-flex;*/
+	-webkit-box-sizing: border-box;
+}
+.footer ul li{
+	float: left;
+	width: 20%;
+}
+.footer ul li a{
+	color:#ababab;
+	text-align: center;
+}
+.footer ul li a p{
+	font-size: .12rem;
+	color:#ababab;
+	margin-top:.03rem ;
+}
+
+.iconfont{
+	display: block;
+	font-size: .22rem;
+	margin-top: .04rem;
+}

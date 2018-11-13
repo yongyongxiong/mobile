@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>find.html</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+	</head>	
+	<body style="background: #fff;">
+		<div class="top-close">
+			<i class="iconfont icon-chahao1"></i>
+		</div>
+		
+		<div class="top-header-cc">
+			<a href="index.html">
+				<img src="img/logo.png"/>
+				<div class="titlebox">
+					<h2>中国移动</h2>
+					<p>China Mobile</p>
+				</div>
+			</a>
+		</div>
+		<div class="loginB">
+			<div class="selectMorS">
+				<ul>
+					<li id="msgCheck">短信验证码</li>
+					<li id="serCheck">服务密码</li>
+				</ul>				
+			</div>			
+			<div class="checkNum">
+				<input  type="text" placeholder="请输入河南移动手机号码"/>				
+			</div>
+			<div class="checkMsgB">
+				<div class="checkNum login-m">
+					<input  type="password" placeholder="请输入短信验证码"/>
+					<span>获取验证码</span>
+				</div>
+				<div class="longinOn longinOnM">
+					<input type="submit" value="验证码登录" />
+				</div>
+			</div>
+			<div class="checkSerB">
+				<div class="checkNum login-m login-s">
+					<input  type="password" placeholder="请输入服务密码"/>
+					<i class="iconfont icon-yey2"></i>
+					<i class="iconfont icon-yanjing"></i>
+				</div>			
+				<div class="longinOn longinOnS">
+					<input type="submit" value="服务密码登录" />
+				</div>
+			</div>
+			<div class="longinOn longinOnF">
+				<a href="mine-login.html">本机号码一键登录</a>
+			</div>
+		</div>
+		
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">	
+	
+	$(function(){
+		$(".checkSerB").css({
+			"display":"none"
+		})
+		$("#msgCheck").click(function(){
+			$(this).css({				
+				"color":"#469af6"
+			})
+			$(this).siblings().css({						
+				"color":"#818183"
+			})
+				$(".checkMsgB").css({
+				"display":"block",
+			})
+				$(".checkSerB").css({
+				"display":"none"
+			})
+		});
+		$("#serCheck").click(function(){
+			$(this).css({				
+				"color":"#469af6"
+			})
+			$(this).siblings().css({						
+				"color":"#818183"
+			})
+			$(".checkMsgB").css({
+			"display":"none"
+			})
+				$(".checkSerB").css({
+				"display":"block",
+			})			
+		});
+		$(".icon-yanjing").css({
+			"display":"none"
+		})
+		$(".icon-yey2").click(function(){
+			$(this).css({				
+				"display":"none"
+			})
+			$(this).siblings().css({
+				"display":"block"
+			})
+		})
+		$(".icon-yanjing").click(function(){
+			$(this).css({				
+				"display":"none"
+			})
+			$(this).siblings().css({
+				"display":"block"
+			})
+		})	
+				
+	});
+</script>

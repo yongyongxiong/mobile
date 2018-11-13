@@ -1,0 +1,127 @@
+.top-close{
+	margin-top: .22rem;
+	overflow: hidden;
+}
+.icon-chahao1{
+	float: right;
+	margin-right: .21rem;
+	font-size: .2rem;
+}
+.top-header-cc{
+	width: 100%;
+	overflow: hidden;
+	margin-top: .12rem;
+}
+.top-header-cc a{
+	text-align: center;
+}
+.top-header-cc a img{
+	display: block;
+	width: .75rem;
+	height: .76rem;
+	margin: 0 auto;
+}
+.titlebox{
+	color:#0a89d1;
+	margin-top: .12rem;
+}
+.titlebox h2{
+	font-size: .24rem;
+	line-height: .24rem;	
+}
+.titlebox p{	
+	font-size: .2rem;
+	line-height: .2rem;
+	margin-top: .04rem;
+}
+.selectMorS{
+	width: 100%;
+}
+.selectMorS ul{
+	width: 2.24rem;
+	margin: auto;
+	box-sizing: border-box;
+	margin-top: .27rem;
+}
+.selectMorS ul li{
+	width: 49%;
+	height: .26rem;
+	float: left;
+	color: #818183;
+	font-size: .14rem;
+	line-height: .26rem;
+	text-align: center;
+}
+.selectMorS ul li:nth-child(1){
+	border-right: 1px solid #818183;
+}
+
+.checkNum{
+	width: 3.01rem;
+	padding:.1rem  .08rem;
+	border-bottom: 1px solid #76797e;
+	overflow: hidden;
+	position: relative;
+	margin: auto;
+}
+.checkNum input{
+	display: block;
+	width: 100%;
+	height: .34rem;
+	border: none;
+}
+.login-m{	
+	display: flex;
+	justify-content: space-between;
+	border-bottom:1px solid #65a4d8 ;
+}
+.login-m input{
+	width: 2.2rem;
+}
+.login-m span{
+	color: #818183;
+	font-size: .14rem;
+	line-height: .34rem;
+	color:#3297ea;
+}
+.login-s .iconfont{
+	position: absolute;
+	right: .2rem;
+	top: 50%;
+	margin-top: -.08rem;
+	display: inline-block;
+	font-size: .16rem;
+}
+.longinOn{
+	width: 2.96rem;
+	height: .43rem;
+	color: #fff;
+	background: #aaabb0;
+	border-radius: .22rem;
+	font-size: .14rem;
+	line-height: .43rem;
+	text-align: center;
+	margin:.3rem auto .1rem;
+}
+.longinOn input{
+	display: block;
+	width: 100%;
+	color: #fff;
+	border: none;
+	height: .43rem;
+	background: #aaabb0;
+	border-radius: .22rem;
+	font-size: .14rem;
+	line-height: .43rem;
+}
+.longinOnF{
+	border:1px solid #0076DE;
+	color:#024980;
+	margin-top: 0;
+	background: #fff;
+}
+.longinOnF a{
+	color:#024980;
+	background: #fff;
+	border: none;	
+}

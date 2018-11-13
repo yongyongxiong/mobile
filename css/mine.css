@@ -1,0 +1,269 @@
+header{
+	width:100%;
+	overflow:hidden;
+	background:url(../img/mine-bg.png);
+	background-size:cover;
+	height:1.03rem;
+}
+
+.header{
+	width:100%;
+	height: .5rem;
+	background:url(../img/mine-hbg.png);
+	overflow: hidden;
+	background-size:cover;
+}
+.header-cont{	
+	padding-left:.18rem;
+	padding-right:.08rem;	
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	-webkit-align-items: center;
+	overflow:hidden;
+	height: .5rem;
+}
+.header-left{
+	overflow:hidden;
+}
+.header-left a{
+	display:block;
+	color: #fff;
+	font-size: .14rem;
+}
+.header-cont .iconfont{
+	display:block;
+	font-size: .2rem;
+	color: #fff;
+	font-weight: 700;
+}
+
+.header-cont .header-center{
+	color: #fff;
+	font-size: 0.14rem;
+	color: #fff;
+	font-weight: 700;
+}
+.header-right{
+	display: -webkit-flex;
+}
+.header-right .icon-fenxiang{
+	margin-left: .1rem;
+}
+
+.header-loginC{
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	width:100%;	
+}
+.header-loginC a{
+	display:block;
+	width:1.02rem;
+	height:.39rem;
+	color:#fff;
+	border:1px solid #fff;
+	border-radius:6px;
+	margin-top:.22rem;
+	overflow:hidden;
+	text-align:center;
+}
+.header-loginC a h1{
+	font-size:0.14rem;
+	line-height:.39rem
+}
+
+/*save*/
+.save{
+	width:100%;
+	background:#fff;
+	border-top:1px solid #dfe7ef;
+	border-bottom:1px solid #dfe7ef;
+	overflow:hidden;
+}
+.saveC{
+	width:100%;
+	overflow:hidden;
+	border-bottom:1px solid #e0e7ed;
+	-webkit-box-sizing:border-box;
+}
+.saveleft{
+	width:49.5%;
+	float:left;
+	border-right:2px solid #dbe3ea;	
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+	-webkit-align-items: center;
+}
+.saveleft p{
+	font-size:.14rem;
+	color:#282828;
+	line-height:.33rem;
+}
+.saveleft ul{
+	margin-top:.15rem;
+	overflow:hidden;
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+}
+.saveleft ul li{
+	width:.08rem;
+	height:.12rem;	
+}
+.saveleft ul span{
+	display:block;
+	width:.06rem;
+	height:.03rem;
+	background:#0085d0;
+}
+.saveleft ul li i{
+	display:block;
+	width:.03rem;
+	height:.03rem;
+	background:#0085d0;
+	border-radius:50%;
+	margin:0.08rem auto;
+}
+
+
+.saveright{
+	width:49.5%;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+	-webkit-align-items: center;
+	float:left;
+}
+.saveright p{
+	font-size:.14rem;
+	color:#282828;
+	line-height:.33rem;
+}
+.saveright ul{
+	margin-top:.15rem;
+	overflow:hidden;
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+}
+.saveright ul li{
+	width:.08rem;
+	height:.12rem;
+}
+.saveright ul span{
+	display:block;
+	width:.06rem;
+	height:.03rem;
+	background:#0085d0;
+}
+.saveright ul li i{
+	display:block;
+	width:.03rem;
+	height:.03rem;
+	background:#0085d0;
+	border-radius:50%;
+	margin:0.08rem auto;
+}
+
+/*nav*/
+.nav{
+	width:100%;
+	overflow:hidden;
+	background:#fff;
+	border-top:1px solid #f8f8f8;
+	border-bottom:1px solid #f8f8f8;
+}
+.nav-c{	
+	width:100%;
+	overflow:hidden;
+}
+.nav-c ul{	
+	width:100%;
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.nav-c ul li{
+	width:25%;
+	float:left;
+	height:.41rem;
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+}
+.nav-c ul li a{	
+	overflow:hidden;
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	font-size:.12rem;
+	color:#3e3e3e;	
+}
+.nav-c ul li a img{
+	width:.19rem;
+	height:.19rem;
+	margin-right:.11rem;
+}
+
+
+.content{
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+	margin-top:.07rem;
+}
+
+.content-list{
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid #e4e9eb;
+}
+.cont-tt{
+	padding:0 .23rem;
+	height: .3rem;
+	color: #525252;
+	border-top: 1px solid #f9f9fa;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+}
+.cont-tt span{
+	width:2px;
+	height:.09rem;
+	background:#458eed;
+}
+.cont-tt h2{
+	font-size: .14rem;
+	line-height: .3rem;
+	margin-left:.11rem;
+}
+.service-list{
+	width: 100%;
+	overflow: hidden;
+}
+.service-list ul{
+	width: 100%;
+	overflow: hidden;	
+}
+.service-list ul li{
+	width: 25%;
+	float: left;
+	
+}
+.service-list ul li a{
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-align-items: center;
+	height: .88rem;
+}
+.service-list ul li a img{
+	width: .27rem;
+	height: .28rem;
+	margin-top: .09rem;
+}
+.service-list ul li a p{
+	font-size: .1rem;
+	color: #464646;
+	line-height: .14rem;
+	margin-top: .06rem;
+}
+
+.footer .iconfont{
+	display: block;
+	font-size: .22rem;
+	margin-top: .04rem;
+}

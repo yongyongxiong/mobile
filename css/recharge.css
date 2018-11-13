@@ -1,0 +1,195 @@
+.header{
+	width:100%;
+	height: .5rem;
+	overflow: hidden;
+	background: #f6f4f5;
+	box-shadow: inset 0 -0.01rem 0.04rem #666,0 -0.01rem 0.04rem #666;
+}
+.header-cont{	
+	padding-left:.18rem;
+	padding-right:.08rem;	
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	-webkit-align-items: center;
+	overflow:hidden;
+	height: .5rem;
+}
+.header-cont .iconfont{
+	display:block;
+	font-size: .2rem;
+	color: #6a6a6a;
+	font-weight: 700;
+}
+
+.header-cont .header-center{
+	font-size: 0.14rem;
+	color: #281f1c;
+	font-weight: 700;
+}
+.header-right{
+	display: -webkit-flex;
+}
+.header-right .icon-fenxiang{
+	margin-left: .1rem;
+}
+.header-left{	
+	display: -webkit-flex;
+}
+.header-left .icon-chahao1{
+	margin-left:.12rem ;
+	color:#8f99a2;
+}
+
+.number{
+	width:100%;
+	overflow: hidden;
+	margin-top: .1rem;
+	border-top:2px solid #ddd;
+	border-bottom:2px solid #ddd;
+	background: #fff;
+}
+.numberB{
+	padding:0 .17rem;
+	display: -webkit-flex;	
+	-webkit-box-sizing: border-box;
+	-webkit-align-items: center;
+}
+.numberC{
+	width: 77%;
+	height: .41rem;
+	border-right:2px solid #d5d5d5;
+	margin-top: .1rem;
+	margin-bottom:.21rem ;
+}
+.numberC input{
+	display: block;
+	font-size: .14rem;
+	height: 100%;
+	width: 100%;
+	text-align: left;
+	color: #000;
+	border: none;
+	
+}
+.numberB a{
+	width: 22%;
+	height: .41rem;
+	text-align: center;
+}
+.numberB a .icon-wo3{
+	font-size: .28rem;
+	color:#3f96e6;
+	line-height: .28rem;
+}
+
+
+.meoney{
+	width: 100%;
+	overflow: hidden;
+	margin-top: .1rem;
+	border-top:2px solid #ddd;
+	border-bottom:2px solid #ddd;
+	background: #fff;
+}
+.meoney-list{	
+	width: 100%;
+	overflow: hidden;
+}
+.meoney-list ul{	
+	width: 100%;
+	overflow: hidden;
+	margin-top: .2rem;
+}
+.meoney-list ul li{	
+	width: 33%;
+	float: left;
+	overflow: hidden;
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	margin-bottom: .09rem;	
+}
+.meoney-list ul li a{
+	width:1.12rem ;
+	height: .52rem;
+	border:1px solid #4196e7;
+	border-radius: .03rem;
+	text-align: center;
+	color:#4196e7;	
+}
+.meoney-list ul li a h2{
+	font-size: .14rem;
+	line-height: .14rem;
+	margin-top: .08rem;
+}
+.meoney-list ul li a p{
+	font-size: .12rem;
+	line-height: .12rem;
+	margin-top: .08rem;
+}
+
+.payment{
+	padding: 0 .1rem;
+	height: .786rem;
+	height: .57rem;
+}
+.payment a{
+	width: 100%;
+	height:.42rem;
+	display: block;
+	background: #4197e7;
+	color: #fff;
+	font-size: .16rem;
+	line-height: .42rem;
+	border:1px solid #71b1ed;
+	border-radius: .05rem;
+	text-align: center;
+	margin-top: .21rem;
+	
+}
+
+.record{
+	width:100%;
+	height: .53rem;	
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	-webkit-box-sizing: border-box;	
+	background: #fff;	
+	border-top:2px solid #ddd;
+	border-bottom:2px solid #ddd;
+	margin-bottom: .26rem;
+}
+.recordL{
+	width: 50%;
+	height: .33rem;
+	border-right: 2px solid #d7d7d7;
+		
+}
+.recordL a{	
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	font-size: .12rem;
+	color: #666666;
+}
+.recordL a .icon-chongzhijilu{
+	font-size: .16rem;
+	margin-right: .06rem;
+}
+.recordR{
+	width: 49.5%;
+	height: .33rem;		
+}
+.recordR a{	
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	font-size: .12rem;
+	color: #666666;
+}
+.recordR a .icon-wenxintishi{
+	font-size: .16rem;
+	margin-right: .06rem;
+}
+
+
